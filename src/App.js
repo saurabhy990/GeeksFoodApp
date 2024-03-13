@@ -5,7 +5,9 @@ import Footer from './components/Footer';
 import Card from './components/Layout/Card';
 import Hero from './components/Layout/Hero';
 import QuotePage from './components/Layout/QuotePage/QuotePage';
+import RestaurantList from './components/RestaurantList';
 // import QuoteCard from './commercial/Layout/QuotePage/QuoteCard';
+
 
 
 function App() {
@@ -24,8 +26,12 @@ function App() {
         <Card/>
         <Card/>
         <Card/> 
-       </div>*/}
-       <QuotePage/>
+       </div>
+       
+        <QuotePage/>*/}
+        
+      <RestaurantList/>
+       
        <Footer/>
 
 
